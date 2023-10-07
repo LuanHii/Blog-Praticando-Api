@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Young+Serif&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Young Serif', serif;
+    
+}
+
+
+.index {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFCC8F;
+    
+    
+}
+
+.post {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFCC8F;
+}
+
+#post {
+    border-radius: 10px;
+}
+
+#comment-form {
+    background-color: #A760FF;
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+
+#post {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #CA82FF;
+    
+}
+
+#post h1 {
+    text-align: center;
+}
+
+#post p {
+    text-align: center;
+}
+
+.post a, input, textarea {
+    margin: 5px;
+}
+
+ 
+
+header {
+    background-color: #FFCC8F;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 21px;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header_2 {
+    background-color: #FFDAAF;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+#posts-container {
+    background-color: #A760FF;
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+#div_container {
+    background-color: #CA82FF;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+#div_container_2 {
+    background-color: #A760FF;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+#div_container:hover, #div_container_2:hover {
+    transform: scale(1.1);
+}
+
+#div_container h3 {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+a, input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: .7;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    
+}
+
+a:hover, input[type="submit"] {
+    opacity: 1;
+   
+}
+
+form {
+    width: 300px;
+
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+
+}
+
+form input, form textarea {
+    padding: 5px;
+}
